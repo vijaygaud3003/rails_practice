@@ -13,7 +13,7 @@ end
 def downcase (string)
     string.downcase
 end
-def empty_string (string )
+def empty_string (string)
     string.empty?
 end
 def string_length (string)
@@ -22,6 +22,6 @@ end
 def reverse (string)
     string.reverse
 end
-def space_remover (string )
-    string.gsub(" ","")
+def space_remover (string)
+    string.gsub(" ", "")
 end

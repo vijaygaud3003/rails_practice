@@ -1,16 +1,16 @@
-def add (a,b)
-    a + b 
+def add (a, b)
+    a + b
 end
-def substract (a,b)
+def substract (a, b)
     a - b
 end
-def multiply (a,b)
+def multiply (a, b)
     a * b
 end
-def divide (a,b)
+def divide (a, b)
     a / b
 end
-def float_divide (a,b)
+def float_divide (a, b)
     a.to_f / b.to_f
 end
 def string_to_number (str)
