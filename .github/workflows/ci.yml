@@ -140,7 +140,7 @@ jobs:
       # The job remains here so the workflow is ready for them.
 
       - name: Keep screenshots from failed system tests
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: screenshots
